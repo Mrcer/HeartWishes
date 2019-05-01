@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HrartView">
+        <attr name="fill" format="reference|color"/>
+        <attr name="fill_shape" format="reference"/>
+    `   <attr name="style">
+            <enum name="cycle" value="0"/>
+        `   <enum name="from_left_to_right" value="1"/>
+            <enum name="from_right_to_left" value="2"/>
+            <enum name="from_bottom_to_top" value="3"/>
+            <enum name="from_top_to_bottom" value="4"/>
+        </attr>
+        <attr name="background" format="reference"/>
+        <attr name="front_ground" format="reference"/>
+    </declare-styleable>
+</resources>
